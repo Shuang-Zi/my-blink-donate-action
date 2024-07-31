@@ -13,9 +13,9 @@ export const DEFAULT_SOL_AMOUNT: number = process.env.DEFAULTAMOUNT
 export const DEFAULT_RPC =
   process.env.RPC_URL_MAINNET ?? clusterApiUrl("mainnet-beta");
 
-export const DEFAULT_TITLE = process.env.TITLE ?? "向崔棉大师@MasterCui捐赠SOL";
+export const DEFAULT_TITLE = process.env.TITLE ?? "向 Shuang-Zi 捐赠 SOL";
 
 export const DEFAULT_AVATOR = process.env.AVATAR;
 
 export const DEFAULT_DESCRIPTION =
-  process.env.DESCRIPTION ?? "支持第一个中文Solana action教程作者";
+  process.env.DESCRIPTION ?? "感谢您的支持， 这是对 Shuang-Zi 最大的鼓励！";
